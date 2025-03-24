@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API_URL = "http://localhost:5000/api/projects";
+const API_URL = "https://project-management-pi-gilt.vercel.app/api/projects";
 
 function App() {
   const [projects, setProjects] = useState([]);
